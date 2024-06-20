@@ -1,0 +1,43 @@
+.fluid-text-xs {
+    font-size: clamp(0.75rem, 2vw, 1rem); // 12px to 16px
+}
+
+.fluid-text-sm {
+    font-size: clamp(0.875rem, 2vw, 1.25rem); // 14px to 20px
+}
+
+.fluid-text-base {
+    font-size: clamp(1rem, 2vw, 1.5rem); // 16px to 24px
+}
+
+.fluid-text-lg {
+    font-size: clamp(1.125rem, 2vw, 1.75rem); // 18px to 28px
+}
+
+.fluid-text-xl {
+    font-size: clamp(1.25rem, 2vw, 2rem); // 20px to 32px
+}
+
+.fluid-text-2xl {
+    font-size: clamp(1.5rem, 2vw, 2.5rem); // 24px to 40px
+}
+
+.fluid-text-3xl {
+    font-size: clamp(1.875rem, 2vw, 3rem); // 30px to 48px
+}
+
+.fluid-text-4xl {
+    font-size: clamp(2.25rem, 2vw, 3.5rem); // 36px to 56px
+}
+
+.fluid-text-5xl {
+    font-size: clamp(3rem, 2vw, 4.5rem); // 48px to 72px
+}
+
+.fluid-text-6xl {
+    font-size: clamp(3.75rem, 2vw, 6rem); // 60px to 96px
+}
+
+.fluid-text-7xl {
+    font-size: clamp(4.5rem, 2vw, 7.5rem); // 72px to 120px
+}

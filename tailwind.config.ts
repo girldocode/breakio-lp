@@ -7,11 +7,39 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
+      colors: {
+        "fuchsia-600": "#C026D3",
+        "fuchsia-50": "#FDF4FF",
+        "blue-gray-900": "#0F172A",
+        "blue-gray-600": "#475569",
+        "blue-gray-300": "#CBD5E1",
+        "blue-gray-100": "#F1F5F9",
+        "blue-800": "#1E40AF",
+        "blue-100": "#DBEAFE",
+        white: "#FFFFFF",
+        "custom-gradient":
+          "linear-gradient(90deg, rgba(164,16,173,1) 27%, rgba(69,10,77,1) 85%)",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-to-r-custom":
+          "linear-gradient(90deg, rgba(164,16,173,1) 27%, rgba(69,10,77,1) 85%)",
       },
     },
   },
