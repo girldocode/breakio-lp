@@ -23,7 +23,6 @@ const testimonials: Testimonial[] = [
     name: "John Smith",
     tagline: "Product Manager",
   },
-  // Add more testimonials as needed
 ];
 
 const TestimonialCarousal: FC = () => {
